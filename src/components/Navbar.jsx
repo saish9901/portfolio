@@ -72,7 +72,7 @@ const Navbar = () => {
         </li>
 
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-500 hover:opacity-100">
-          <a target="_blank" href="https://github.com/sknaikv">
+          <a target="_blank" href="https://github.com/saish9901/">
             <BsGithub />
           </a>
         </li>
