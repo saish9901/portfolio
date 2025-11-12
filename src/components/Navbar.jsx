@@ -86,7 +86,7 @@ const Navbar = () => {
 
       {/* {isOpen && ( */}
       <div
-        className={`fixed right-0 top-[85px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-1 border-gray-600 bg-black/90 p-12 transition-all duration-300 ease-in ${
+        className={`fixed right-0 top-[85px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-1 mt-5 border-gray-600 bg-black/90 p-12 transition-all duration-300 ease-in ${
           isOpen ? "translate-x-[0%]" : "translate-x-[100%]"
         }`}
       >

@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="px-8 flex min-h-screen w-full items-center justify-center py-28 md:px-32"
+      className="px-8 flex min-h-screen w-full items-center justify-center py-40 md:px-32"
     >
       <div className="flex flex-col items-center justify-center gap-10 text-white">
         <motion.div
@@ -35,11 +35,8 @@ const Hero = () => {
             Front-End Web Developer
           </h3>
           <p className="text-lg text-gray-400 leading-7 md:text-base text-pretty">
-            Hi, I’m Saish Naik, a passionate Front-End Web Developer creating
-            visually appealing, user-friendly, and responsive websites. I
-            specialize in turning ideas into interactive digital experiences
-            with clean code and modern design.<br/>
-            I have 1+ years of experience as a frontend web developer, creating WordPress websites, app designs, and logos.
+            <b>Hi, I’m Saish Naik — a passionate Front-End Web Developer dedicated to crafting visually engaging, responsive, and user-focused websites.</b> <br/>  <br/>
+            I specialize in transforming ideas into engaging digital experiences through clean code and modern design. With over a year of front-end development experience, I’ve built WordPress websites, designed intuitive app interfaces, and created impactful brand visuals. My goal is to blend creativity and technology to deliver products that look great and perform seamlessly.
           </p>
         </motion.div>
       </div>

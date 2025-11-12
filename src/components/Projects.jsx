@@ -3,9 +3,20 @@ import image1 from "/public/images/grocery.png";
 import image2 from "/public/images/hr.png";
 import image3 from "/public/images/image.png";
 import image4 from "/public/images/Screenshot 2025-09-02 132756.png";
+import image5 from "/public/images/notesbuddy.png";
 import { motion } from "motion/react";
+import { BsGithub } from "react-icons/bs";
 
 const projectData = [
+  {
+    image: image5,
+    title: "NotesBuddy - Notes Sharing Platform",
+    description:
+      "NotesBuddy is a React-based notes-sharing platform that allows students to easily upload, access, and share subject notes within a collaborative community. It aims to simplify academic resource sharing and promote peer-to-peer learning across courses and institutions.My first project where I used Context API for Light and Dark mode functionality.",
+    technologies: ["React", "Tailwind", "Local Storage"],
+    link: "https://notesbuddyy.netlify.app/",
+    githubLink: "https://github.com/saish9901/notesBuddy_Standalone"
+  },
   {
     image: image3,
     title: "Holiday Cottages Website - Scotland",
@@ -59,7 +70,14 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col gap-3">
           <div className="text-xl font-semibold">{project.title}</div>
           <p className="text-gray-400">{project.description}</p>
-          <a className="link-btn" target="blank" href={project.link}>Visit project</a>
+          <div className="flex gap-3">
+            <a className="link-btn hover:bg-[#ffffff36]" target="blank" href={project.link}>Visit project</a>
+            {project.githubLink && (
+              <a className="link-btn hover:bg-[#ffffff36]" target="blank" href={project.githubLink}>
+                <BsGithub size={20} />
+              </a>
+            )}
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-5">
