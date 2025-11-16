@@ -7,13 +7,13 @@ import Contact from './components/Contact'
 import WhatsAppButton from './components/WhatsAppButton'
 import Footer from './components/Footer'
 import ContactForm from './components/UI/EmailForm'
+import './utility/mouse_activity'
 
 const App = () => {
   return (
    <>
     <div class="fixed -z-10 min-h-screen w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
-
-
+    <div id='mouse_pointer'></div>
     <main className='flex flex-col items-center px-4 md:px-8 lg:px-16 overflow-hidden'>
         <Navbar />
         <Hero />
