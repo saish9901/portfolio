@@ -4,10 +4,20 @@ import image2 from "/public/images/hr.png";
 import image3 from "/public/images/image.png";
 import image4 from "/public/images/Screenshot 2025-09-02 132756.png";
 import image5 from "/public/images/notesbuddy.png";
+import image6 from "/public/images/weatherbuddy.png";
 import { motion } from "motion/react";
 import { BsGithub } from "react-icons/bs";
 
 const projectData = [
+  {
+    image: image6,
+    title: "weatherBuddy - One stop for weather updates",
+    description:
+      "weatherBuddy is a simple and user-friendly weather application built with React that provides real-time weather updates for any location worldwide. It features a clean interface, easy navigation, and accurate weather data, making it a reliable companion for planning your day according to the weather conditions.  My second project where I used Local Storage to save the last searched city.",
+    technologies: ["React", "Tailwind", "Local Storage"],
+    link: "https://weatherbuddysk.netlify.app/",
+    githubLink: "https://github.com/saish9901/weatherBuddy"
+  },
   {
     image: image5,
     title: "NotesBuddy - Notes Sharing Platform",
