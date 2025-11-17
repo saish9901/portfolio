@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiFiverr } from "react-icons/si";
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-800 bg-black/70 px-8 py-6 text-white backdrop-blur-md md:justify-evenly transition-all ease-out">
+    <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-800 bg-black/70 px-8 py-6 text-white backdrop-blur-md lg:justify-evenly md:justify-between transition-all ease-out">
       <div className="">
         <a
           href="/"
@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <ul className="hidden md:flex gap-10">
+      <ul className="hidden lg:flex gap-10">
         <a
           href="#home"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
@@ -52,7 +52,7 @@ const Navbar = () => {
         </a>
       </ul>
 
-      <ul className="hidden md:flex gap-5 items-center">
+      <ul className="hidden lg:flex gap-5 items-center">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-[#1DBF73] hover:opacity-100">
           <a target="_blank" href="https://www.fiverr.com/s/6YoPzqA">
             <SiFiverr className="text-[35px]"/>
@@ -79,9 +79,9 @@ const Navbar = () => {
       </ul>
 
       {isOpen ? (
-        <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
+        <BiX className="block lg:hidden text-4xl" onClick={menuOpen} />
       ) : (
-        <BiMenu className="block md:hidden text-4xl" onClick={menuOpen} />
+        <BiMenu className="block lg:hidden text-4xl" onClick={menuOpen} />
       )}
 
       {/* {isOpen && ( */}
