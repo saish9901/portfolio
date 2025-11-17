@@ -91,3 +91,9 @@ label {
   pointer-events: none;
   z-index: 999999;
 }
+
+@media screen and (max-width:768px){
+  #mouse_pointer {
+    display: none;
+  }
+}
