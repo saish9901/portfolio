@@ -14,7 +14,7 @@ const projectData = [
     title: "weatherBuddy - One stop for weather updates",
     description:
       "weatherBuddy is a simple and user-friendly weather application built with React that provides real-time weather updates for any location worldwide. It features a clean interface, easy navigation, and accurate weather data, making it a reliable companion for planning your day according to the weather conditions.  My second project where I used Local Storage to save the last searched city.",
-    technologies: ["React", "Tailwind", "Local Storage"],
+    technologies: ["JavaScript", "Tailwind", "Local Storage"],
     link: "https://weatherbuddysk.netlify.app/",
     githubLink: "https://github.com/saish9901/weatherBuddy"
   },
@@ -32,7 +32,7 @@ const projectData = [
     title: "Holiday Cottages Website - Scotland",
     description:
       "As a Freelanced Web Developer at WHN Next, I created a dynamic Holiday Cottage website using WordPress. This project demonstrated my ability to leverage CMS tools to design responsive layouts, integrate plugins, and ensure seamless user experiences for online bookings and inquiries.",
-    technologies: ["CSS", "JS", "Wordpress"],
+    technologies: ["CSS", "JavaScript", "Wordpress"],
     link: "https://saltydogholidays.co.uk/"
   },
   {
@@ -40,7 +40,7 @@ const projectData = [
     title: "Bartender Website Project",
     description:
       "As a Freelanced Web Developer at WHN Next, I developed a visually appealing bartender website using WordPress. This project highlighted my expertise in crafting responsive designs, customizing themes, and optimizing user interfaces to showcase services effectively and attract potential clients.",
-    technologies: ["CSS", "JS", "Wordpress"],
+    technologies: ["CSS", "JavaScript", "Wordpress"],
     link: "https://theidealbartendergoa.com/"
   },
   {
@@ -48,7 +48,7 @@ const projectData = [
     title: "Cloned Grocery Website Project",
     description:
       "As an intern at KGN Technologies Pvt. Ltd., I cloned a fully responsive grocery website using HTML, CSS, and JavaScript. This project highlights my expertise in front-end development, including design replication and interactivity implementation. Check out the live project here, showcasing my skills in creating user-friendly web interfaces.",
-    technologies: ["HTML", "CSS", "JS"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://sknaikv.github.io/grocery_site/index.html"
   },
   {
@@ -56,7 +56,7 @@ const projectData = [
     title: "H.R. & Factories Consultant Website Project",
     description:
       "During my internship at KGN Technologies Pvt. Ltd., I contributed to developing a professional website for H.R. & Factories Consultant. This project focused on creating a user-friendly interface using HTML, CSS, and JavaScript to deliver a responsive and informative platform tailored to client needs.",
-    technologies: ["HTML", "CSS", "JS"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://sknaikv.github.io/vi-testing2/"
   },
 ];
