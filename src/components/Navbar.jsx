@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
-import { SiFiverr } from "react-icons/si";
 
 const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -53,11 +52,6 @@ const Navbar = () => {
       </ul>
 
       <ul className="hidden lg:flex gap-5 items-center">
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-[#1DBF73] hover:opacity-100">
-          <a target="_blank" href="https://www.fiverr.com/s/6YoPzqA">
-            <SiFiverr className="text-[35px]"/>
-          </a>
-        </li>
 
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
           <a target="_blank" href="https://www.linkedin.com/in/saish-naik-731801119/">
