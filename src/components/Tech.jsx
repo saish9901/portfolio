@@ -6,7 +6,10 @@ import {
   BiLogoReact,
   BiLogoTailwindCss,
   BiLogoWordpress,
+  BiLogoPhp,
+  BiLogoMongodb
 } from "react-icons/bi";
+import { SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Tech = () => {
@@ -28,7 +31,7 @@ const Tech = () => {
         Technologies
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center gap-10 p-5">
+      <div className="flex flex-wrap items-center justify-center gap-10 p-5 max-w-[1000px]">
         <motion.div
           variants={variants}
           initial="hidden"
@@ -82,6 +85,34 @@ const Tech = () => {
         >
           <BiLogoWordpress className="cursor-pointer text-[80px] text-gray-300 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
+
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5, delay: 1.0 }}
+        >
+          <BiLogoPhp className="cursor-pointer text-[80px] text-[#474A8A] transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+        </motion.div>
+
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5, delay: 1.0 }}
+        >
+          <BiLogoMongodb className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+        </motion.div>
+
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5, delay: 1.0 }}
+        >
+          <SiMysql className="cursor-pointer text-[80px] text-[#F29111] transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
+        </motion.div>
+
       </div>
 
       <motion.div
