@@ -5,10 +5,19 @@ import image3 from "/public/images/image.png";
 import image4 from "/public/images/Screenshot 2025-09-02 132756.png";
 import image5 from "/public/images/notesbuddy.png";
 import image6 from "/public/images/weatherbuddy.png";
+import image7 from "/public/images/loco.png";
 import { motion } from "motion/react";
 import { BsGithub } from "react-icons/bs";
 
 const projectData = [
+  {
+    image: image7,
+    title: "Loco Goa Car Rentals - Car Rental Website",
+    description:
+      "Loco Goa Car Rentals is a comprehensive car rental website that offers a seamless booking experience for users. The platform provides detailed information about available vehicles, pricing, and rental policies, ensuring a smooth and efficient process for customers. This project showcases my skills in web development, including responsive design, user interface optimization, and integration of essential features to enhance user experience.",
+    technologies: ["Wordpress", "JavaScript","CSS"],
+    link: "https://locogoacarrentals.com/"
+  },
   {
     image: image6,
     title: "weatherBuddy - One stop for weather updates",
