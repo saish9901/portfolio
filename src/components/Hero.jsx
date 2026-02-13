@@ -32,11 +32,13 @@ const Hero = () => {
             Saish Naik
           </h1>
           <h3 className="text-[#dbdbdb] font-semibold ">
-            Front-End Web Developer
+            Web Developer
           </h3>
           <p className="text-lg text-gray-400 leading-7 md:text-base text-pretty">
-            <b>Hi, I’m Saish Naik — a passionate Front-End Web Developer dedicated to crafting visually engaging, responsive, and user-focused websites.</b> <br/>  <br/>
-            I specialize in transforming ideas into engaging digital experiences through clean code and modern design. With over a year of front-end development experience, I’ve built WordPress websites, designed intuitive app interfaces, and created impactful brand visuals. My goal is to blend creativity and technology to deliver products that look great and perform seamlessly.
+            <b>Hi, I’m Saish Naik — a passionate Web Developer dedicated to crafting visually engaging, responsive, and user-focused websites.</b> <br/>  <br/>
+            <span className="hidden md:block">
+                I specialize in transforming ideas into engaging digital experiences through clean code and modern design. With over a year of front-end development experience, I’ve built WordPress websites, designed intuitive app interfaces, and created impactful brand visuals. My goal is to blend creativity and technology to deliver products that look great and perform seamlessly.
+            </span>
           </p>
         </motion.div>
       </div>
