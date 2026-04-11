@@ -55,7 +55,7 @@ const Navbar = () => {
       <ul className="hidden lg:flex gap-5 items-center">
         <li>
           <a
-            href="/resume/Saish_Naik_Resume (1).pdf"
+            href="/resume/Saish_Naik_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg opacity-80 transition-all duration-300 hover:opacity-100 font-semibold"
@@ -125,7 +125,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="/resume/Saish_Naik_Resume (1).pdf"
+            href="//resume/Saish_Naik_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg opacity-80 transition-all duration-300 hover:opacity-100 font-semibold inline-block w-fit"
