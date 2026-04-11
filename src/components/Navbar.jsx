@@ -125,7 +125,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="//resume/Saish_Naik_Resume.pdf"
+            href="/resume/Saish_Naik_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg opacity-80 transition-all duration-300 hover:opacity-100 font-semibold inline-block w-fit"
@@ -149,7 +149,7 @@ const Navbar = () => {
           </li>
 
           <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-500 hover:opacity-100 m-auto">
-            <a href="https://github.com/sknaikv">
+            <a href="https://github.com/saish9901/">
               <BsGithub />
             </a>
           </li>
