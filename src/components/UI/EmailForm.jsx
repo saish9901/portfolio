@@ -58,7 +58,7 @@ const ContactForm = () => {
         <textarea name="message" required />
 
         <button
-          className="text-nowrap rounded-lg border border-indigo-600 bg-black mt-6 px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2  hover:shadow-xl hover:shadow-indigo-600"
+          className="px-4 py-4 bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg opacity-80 transition-all duration-300 hover:opacity-100 font-semibold inline-block w-full text-white mt-4"
           type="submit"
         >
           Send
