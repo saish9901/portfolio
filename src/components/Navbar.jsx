@@ -31,21 +31,21 @@ const Navbar = () => {
         </a>
 
         <a
-          href="#tech"
+          href="/#tech"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
           <li>Tech</li>
         </a>
 
         <a
-          href="#projects"
+          href="/#projects"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
           <li>Projects</li>
         </a>
 
         <a
-          href="#contact"
+          href="/#contact"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
           <li>Contact</li>
@@ -104,21 +104,21 @@ const Navbar = () => {
           </a>
 
           <a
-            href="#tech"
+            href="/#tech"
             className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
           >
             <li>Tech</li>
           </a>
 
           <a
-            href="#projects"
+            href="/#projects"
             className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
           >
             <li>Projects</li>
           </a>
 
           <a
-            href="#contact"
+            href="/#contact"
             className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
           >
             <li>Contact</li>
