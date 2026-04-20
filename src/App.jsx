@@ -45,7 +45,7 @@ const App = () => {
 
   return (
    <BrowserRouter>
-    <div className="fixed -z-10 min-h-screen w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+    <div className="fixed -z-10 h-screen w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
     <div id='mouse_pointer'></div>
     <main className='flex flex-col items-center px-4 md:px-8 lg:px-16 overflow-hidden'>
         <Navbar />
