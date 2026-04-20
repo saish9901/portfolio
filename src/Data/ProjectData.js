@@ -42,7 +42,7 @@ const projectData = [
     description:
       "PayFlow is a full-stack payroll management web app built for small businesses with up to 10 employees. It streamlines the entire payroll workflow — from tracking daily attendance and overtime to generating accurate payslips in one click.",
     technologies: ["React", "Node.js","Tailwind CSS", "Express", "MongoDB", "JWT Authentication", "PDF Kit"],
-    link: "https://github.com/saish9901/PettyFlow"
+    link: "https://payflow-frontend-hton.onrender.com"
   },
   {
     image: image3,
