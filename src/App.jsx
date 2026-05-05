@@ -25,7 +25,7 @@ const App = () => {
       const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
       const scrolled = window.scrollY;
       const scrollPercentage = (scrolled / scrollHeight) * 100;
-      
+
       // Show button when scrolled past 50% of viewport
       if (scrollPercentage > 50) {
         setShowBackToTop(true);
@@ -44,19 +44,19 @@ const App = () => {
 
 
   return (
-   <BrowserRouter>
-    <div className="fixed -z-10 h-screen w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
-    <div id='mouse_pointer'></div>
-    <main className='flex flex-col items-center px-4 md:px-8 lg:px-16 overflow-hidden'>
+    <BrowserRouter>
+      <div className="fixed -z-10 h-screen w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+      <div id='mouse_pointer'></div>
+      <main className='flex flex-col items-center px-4 md:px-8 lg:px-16 overflow-hidden'>
         <Navbar />
-          <Routes>
-              <Route path="/" element={
+        <Routes>
+          <Route path="/" element={
             <>
               <Hero />
               <Tech />
               <Projects />
               <Contact />
-              <ContactForm/>
+              <ContactForm />
               <Footer />
               {showBackToTop && (
                 <div className='btotop fixed bottom-[6rem] right-6 bg-white w-12 h-12 flex center items-center justify-center rounded-full cursor-pointer transition-all duration-300 hover:transform hover:scale-110'>
@@ -65,12 +65,12 @@ const App = () => {
               )}
             </>
           } />
-            <Route path="/projects" element={<ProjectsPage/>} />
-          </Routes>    
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
         <WhatsAppButton />
-    </main>
-   </BrowserRouter>
-   
+      </main>
+    </BrowserRouter>
+
   )
 }
 
